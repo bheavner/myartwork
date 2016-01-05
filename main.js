@@ -97,7 +97,7 @@ d3.csv("http://emilydolson.github.io/D3-visualising-data/resources/nations.csv",
 	var year = parseInt(document.getElementById("year_slider").value);
 
 	var filtered_nations = nations.filter(
-		function(nation) { return nation.year == 2007 }
+		function(nation) { return nation.year == 1977 }
 	);
 
 	var data_canvas = canvas.append("g")
